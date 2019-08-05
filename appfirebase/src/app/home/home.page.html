@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <ion-content>
+    <ion-input type="text" name="email" [(ngModel)]="usuario.email"></ion-input>
+
+    <ion-input type="password" name="senha" [(ngModel)]="usuario.senha"></ion-input>
+    <ion-button (click)="login()">Acessar</ion-button>
+    </ion-content>
+
+
+  </div>
+</ion-content>
